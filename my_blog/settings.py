@@ -25,7 +25,7 @@ SECRET_KEY = '__=s9@oixaun$x^g7-4#10wf_*7zvb8)kl1$j82fj&cyq%^o^3'
 # SECURITY WARNING: don't run with debug turned on in production!
 
 # 部署到线上时为 False; 读者在本地调试时请修改为 True
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -150,17 +150,17 @@ STATICFILES_DIRS = (
 STATIC_ROOT = os.path.join(BASE_DIR, 'collected_static')
 
 # SMTP服务器
-EMAIL_HOST = 'your smtp'
+EMAIL_HOST = 'smtp.126.com'
 # 邮箱名
-EMAIL_HOST_USER = 'your email'
+EMAIL_HOST_USER = 'keep_py@126.com'
 # 邮箱密码
-EMAIL_HOST_PASSWORD = 'your password'
+EMAIL_HOST_PASSWORD = 'HDJMIVECCVBALNUX'
 # 发送邮件的端口
 EMAIL_PORT = 25
 # 是否使用 TLS
 EMAIL_USE_TLS = True
 # 默认的发件人
-DEFAULT_FROM_EMAIL = 'your email'
+DEFAULT_FROM_EMAIL = 'keep_python<keep_py@126.com>'
 
 # 媒体文件地址
 MEDIA_URL = '/media/'
